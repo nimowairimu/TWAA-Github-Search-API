@@ -9,8 +9,8 @@ const express = require('express');
 const app = express();
 const app = express();
 app.use(requireHTTPS);
-app.use(express.static(/dist/github-search));
-app.get('/*', (req, res) =>
-    res.sendFile('index.html', {root: 'dist/github-search/'}),
+app.use(express.static(/dist/github-search/front-end/dist/));
+app.get('*', (req, res) =>
+    res.sendFile('./front-end/dist/index.html'),
 );
 app.listen(process.env.PORT || 8080);
