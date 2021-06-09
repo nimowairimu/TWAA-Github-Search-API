@@ -1,26 +1,19 @@
+import { GithubService } from './github.service';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import {HttpClientModule} from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { NotfoundComponent } from './notfound/notfound.component';
-import { RepoComponent } from './repo/repo.component';
-import { SearchComponent } from './search/search.component';
-import { UsersComponent } from './users/users.component';
-import { UserserviceService } from './userservice.service';
+import { ProfileComponent } from './profile/profile.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent,
-    NotfoundComponent,
-    RepoComponent,
-    SearchComponent,
-    UsersComponent,
+    ProfileComponent,
     
    
   ],
@@ -28,8 +21,9 @@ import { UserserviceService } from './userservice.service';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule,
   ],
-  providers: [UserserviceService],
+  providers: [GithubService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
