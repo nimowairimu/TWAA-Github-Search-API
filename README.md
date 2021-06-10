@@ -2,27 +2,50 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.1.
 
-## Development server
+## Author
+Mungai Irene
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Description
+This is Angular CLI application that allows a user to enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories based on github user name.
+It backend is the Github API
 
-## Code scaffolding
+## Live Link
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+[View Site](https://elastic-ptolemy-e45b24.netlify.app/)
 
-## Build
+## BDD
+|Behaviour | Input | Output |
+|:---------:--------:-------|
+|Search for github profile  | Enter the github username | Displays the name,image, username, number of repositories,Joining date, followers, following and lists the repositories|
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Installation and SetUp
+1. Open Terminal {Ctrl+Alt+T}
 
-## Running unit tests
+1. git clone https://github.com/nimowairimu/TWAA-Github-Search-API.git
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. cd Github-Search
 
-## Running end-to-end tests
+1. code . or atom . based on the text editor you have.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+1. Run ng serve for a dev server.
 
-## Further help
+1. Navigate to http://localhost:4200/.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# TWAA-Github-Search-API
+1. npm install && ng serve
+
+## Technologies Used
+1. Angular CLI
+1. HTML
+1. HTML
+1. CSS
+1. Bootstrap
+1. Typescript
+
+
+## Contact Information
+
+For questions or contributions email me on at [nimowairimu25@gmail.com]
+
+## License
+MIT License:
+Copyright (c) 2021 Mungai Irene
