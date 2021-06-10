@@ -14,9 +14,10 @@ It backend is the Github API
 [View Site](https://elastic-ptolemy-e45b24.netlify.app/)
 
 ## BDD
-|Behaviour | Input | Output |
-|:---------:--------:-------|
-|Search for github profile  | Enter the github username | Displays the name,image, username, number of repositories,Joining date, followers, following and lists the repositories|
+
+| Behaviour | Input | Output |
+| :---------------- | :---------------: | ------------------: |
+| Search for github profile  | Enter the github username| Displays the name,image, username, number of repositories,Joining date, followers, following and lists the repositories|
 
 ## Installation and SetUp
 1. Open Terminal {Ctrl+Alt+T}
