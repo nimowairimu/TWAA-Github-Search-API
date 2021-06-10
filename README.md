@@ -16,7 +16,7 @@ It backend is the Github API
 ## BDD
 
 | Behaviour | Input | Output |
-| :---------------- | :---------------: | ------------------: |
+| :---------------- | :---------------: | :------------------: |
 | Search for github profile  | Enter the github username| Displays the name,image, username, number of repositories,Joining date, followers, following and lists the repositories|
 
 ## Installation and SetUp
